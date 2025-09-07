@@ -88,7 +88,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 async function connectToWA() {;
-	console.log("Connecting 𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳...");
+	console.log("Connecting Queen Maya Md...");
     const {
         version,
         isLatest
@@ -129,8 +129,8 @@ async function connectToWA() {;
                     require("./plugins/" + plugin);
                 }
             });
-            console.log('𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳 Plugins installed ✅')
-            console.log('𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳 Bot connected ✅')
+            console.log('Queen Maya Md Plugins installed ✅')
+            console.log('Queen Maya Md Bot connected ✅')
 	 
 
 //================== CONNECT MG ==================
@@ -139,7 +139,7 @@ const prefix = config.PREFIX
 const mode = config.MODE
 const statusRead = config.AUTO_READ_STATUS
 
-let up = "*🫧 𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳 FREE MINI BOT CONNECTED SUCCESSFULLY ☑️*\n\n𝙿𝚁𝙴𝙵𝙸𝚇 :-" + prefix + "\n𝙼𝙾𝙳𝙴 :- " + mode + "\n𝚂𝚃𝙰𝚃𝚄𝚂 𝚁𝙴𝙰𝙳 :-" + statusRead + "\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘʀᴏꜰᴇꜱꜱᴏʀ ꜱᴀɴᴅᴇꜱ ɪꜱᴜʀᴀɴᴅᴀ ";
+let up = "*🫧 QUEEN MAYA MD FREE MINI BOT CONNECTED SUCCESSFULLY ☑️*\n\n𝙿𝚁𝙴𝙵𝙸𝚇 :-" + prefix + "\n𝙼𝙾𝙳𝙴 :- " + mode + "\n𝚂𝚃𝙰𝚃𝚄𝚂 𝚁𝙴𝙰𝙳 :-" + statusRead + "\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘʀᴏꜰᴇꜱꜱᴏʀ ꜱᴀɴᴅᴇꜱ ɪꜱᴜʀᴀɴᴅᴀ ";
 
 conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
         mentionedJid: [''],
@@ -200,7 +200,7 @@ const quoted = type == 'extendedTextMessage' && mek.message.extendedTextMessage.
 const metadata = await conn.newsletterMetadata("jid", "120363402220977044@newsletter");
 if (metadata.viewer_metadata === null) {
   await conn.newsletterFollow("120363416065371245@newsletter");
-  console.log("𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳 FOLLOW ✅");
+  console.log("QUEEN MAYA MD FOLLOW ✅");
 }
 
 
@@ -217,7 +217,7 @@ const body = (type === 'conversation') ? mek.message.conversation : (type === 'e
             const sender = mek.key.fromMe ? (conn.user.id.split(':')[0] + '@s.whatsapp.net' || conn.user.id) : (mek.key.participant || mek.key.remoteJid)
             const senderNumber = sender.split('@')[0]
             const botNumber = conn.user.id.split(':')[0]
-            const pushname = mek.pushName || 'KING-SANDESH-MD'
+            const pushname = mek.pushName || 'QUEEN MAYA MD'
 	          const ownbot = config.SUDO
 	          const isownbot = ownbot?.includes(senderNumber)
 	          const developers = '94716717099'
@@ -318,7 +318,7 @@ conn.forwardMessage = async (jid, message, forceForward = false, options = {}) =
        
 if(senderNumber.includes("94716717099")){
 if(isReact) return
-m.react("👨‍💻")
+m.react("⚡")
 }
 
 //================== WORK TYPE ==================
@@ -392,7 +392,7 @@ events.commands.map(async (command) => {
 app.get("/", (req, res) => {
 res.send("QUEEN MAYA MD IS CONNECTED SUCCESSFULY...❤️‍🩹");
 });
-app.listen(port, () => console.log(`𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳 Server listening on port http://localhost:` + port));
+app.listen(port, () => console.log(`QUEEN MAYA MD  Server listening on port http://localhost:` + port));
 setTimeout(() => {
 connectToWA()
 }, 3000);
