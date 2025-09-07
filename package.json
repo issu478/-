@@ -1,12 +1,12 @@
 {
-  "name": "𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳",
-  "version": "2.0.0",
-  "description": "𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳 WhatsApp bot created using Node.js.This is createf by professor sandes isuranda ",
+  "name": "QUEEN MAYA MD",
+  "version": "1.0.0",
+  "description": "QUEEN MAYA MD WhatsApp bot created using Node.js.This is createf by professor sandes isuranda",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name 𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳",
-    "stop": "pm2 stop 𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳",
-    "restart": "pm2 restart 𝚀𝚄𝙴𝙴𝙽 𝙼𝙰𝚈𝙰 𝙼𝙳"
+    "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN MAYA MD",
+    "stop": "pm2 stop QUEEN MAYA MD",
+    "restart": "pm2 restart QUEEN MAYA MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-mod",
