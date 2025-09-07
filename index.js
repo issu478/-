@@ -66,7 +66,7 @@ var prefixRegex = config.prefix === "false" || config.prefix === "null" ? "^" : 
 const path = require('path')
 const msgRetryCounterCache = new NodeCache()
 
-const ownerNumber =  ['9471671709o']
+const ownerNumber =  ['94716717099']
 //================== SESSION ==================
 if (!fs.existsSync(__dirname + '/session/creds.json')) {
     if (config.SESSION_ID) {
