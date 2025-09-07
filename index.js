@@ -88,7 +88,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 async function connectToWA() {;
-	console.log("Connecting Queen Maya Md...");
+	console.log("Connecting QUEEN MAYA MD...");
     const {
         version,
         isLatest
@@ -129,8 +129,8 @@ async function connectToWA() {;
                     require("./plugins/" + plugin);
                 }
             });
-            console.log('Queen Maya Md Plugins installed ✅')
-            console.log('Queen Maya Md Bot connected ✅')
+            console.log('QUEEN MAYA MD Plugins installed ✅')
+            console.log('QUEEN MAYA MD Bot connected ✅')
 	 
 
 //================== CONNECT MG ==================
